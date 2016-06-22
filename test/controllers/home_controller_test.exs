@@ -1,4 +1,4 @@
-defmodule JoBhello.PageControllerTest do
+defmodule JoBhello.HomeControllerTest do
   use JoBhello.ConnCase
 
   test "GET /", %{conn: conn} do

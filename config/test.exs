@@ -12,8 +12,8 @@ config :logger, level: :warn
 # Configure your database
 config :jo_bhello, JoBhello.Repo,
   adapter: Ecto.Adapters.Postgres,
-  username: "postgres",
-  password: "postgres",
+  username: "dev",
+  password: "el0pm3nt",
   database: "jo_bhello_test",
   hostname: "localhost",
   pool: Ecto.Adapters.SQL.Sandbox
